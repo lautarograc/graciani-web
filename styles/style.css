@@ -1,0 +1,46 @@
+html {
+  font-size: 10px;
+}
+
+
+a    {font-size: 15px;
+  font-family: bold;
+}
+
+p    {
+  font-size: 25px;
+  font-family: helvetica;
+}
+
+ul {padding: 20px;
+  border: 5px solid rgb(102, 161, 168);
+  list-style-type: square;
+  font-size: 20px;
+}
+
+li, ul {
+  margin-left: 25px;
+}
+
+.presentation-card {
+  color: rgb(77, 76, 85);
+  font-size: 18px;
+}
+
+.presentation-links:hover{
+  color: deeppink;
+}
+
+.logoimg {
+  border: 5px solid darkblue;
+  background-color: blueviolet;
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.logoimg img{
+  display:inline-block;
+  width: 100%;
+  height: 830px;
+}
