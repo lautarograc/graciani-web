@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+
+<meta charset= utf-8>
+<title>Visualizacion de la conjetura Collaz</title>
+<meta name="author" content="Lautaro Graciani">
+<meta name="description" content="Mock project">
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="styles/style.css"/>
+<script src="scripts/collatz.js" defer></script>
+
+</head>
+
+
+
+<body>
+
+
+<header>
+    <section class=highbar>
+    <nav role="navigation">
+        <div id="menuactivation">
+        <input type="checkbox"/>
+            
+        <span></span>
+        <span></span>
+        <span></span>
+  
+  
+        <ul id="menu">
+            <li><a href="index.html">Pagina Principal</a></li>
+            <li><a href="collatz.html">Collatz</a></li>
+        </ul>
+    </div>
+    </nav>
+    <div class="navlinks">
+        <ul>
+        <li><a href="index.html">Página Principal</a></li>
+        <li><a href=collatz.html>Collatz</a></li>
+        </ul>
+      </div>
+    </section>
+</header>
+
+
+<h2><div style = "position:relative; bottom:20px"> Conjetura de Collatz</h2>
+<p> La conjetura de Collatz es una secuencia capaz de transformar
+    cualquier numero del conjunto de los naturales en 1. Se define de esta manera:
+    <img src="images/ecuacioncollatz.png" alt="Define la ecuacion collatz">
+
+</p>
+</div>
+<div class="collatzinput">
+    Numero natural:
+    <input type="number" class="collatz-number">
+    <button class="process">Numero de iteraciones para llegar al uno:</button>
+    <br>
+    <h1 class="show-data" style="display:none"></h1>
+</div>
+
+
+</body>
+
+
+</html> 
