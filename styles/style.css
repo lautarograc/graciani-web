@@ -146,15 +146,17 @@ li, ul {
 }
 .highbar{
   display: flex;
-  justify-content: space-between;
-  align-items:center;
-  padding:30px;
-  margin: 30px auto;
+  justify-content:space-between;
+  align-items: flex-end center;
+  padding:auto;
+  margin:auto;
 }
 
 .logoimg{
+  position: relative;
+  bottom: -60px;
   width: auto;
-  max-width: 80%;
+  max-width: 86%;
   height: 900%;
   display: block;
   margin-top: -8%;
@@ -203,4 +205,13 @@ ul.navlinks{
   .navlinks{
     visibility: hidden;
   }
+}
+
+.visdat{
+  font-size: large;
+}
+
+.visdat img{
+  width: 2%;
+  height: 20;
 }
